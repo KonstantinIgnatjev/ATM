@@ -69,7 +69,6 @@ atmTerminal.uploadCash({
 });
 
 
-
 valik.withdrawMoney(200)
 valik.withdrawMoney(500)
 valik.withdrawMoney(500)
@@ -81,7 +80,6 @@ valik.withdrawMoney(200)
 valik.withdrawMoney(100)
 valik.withdrawMoney(1000)
 valik.withdrawMoney(1000)
-
 
 
 console.log(atmTerminal.banknoteInSafe);
