@@ -21,9 +21,7 @@ let atmTerminal = {
   // Выводит количество банкнот по каждому наминалу в ATM
   totalSafeMoneyAtm() {
     for (let key in this.banknoteInSafe) {
-      //console.log(key * this.banknoteInSafe[key]);
       console.log(this.banknoteInSafe[key]);
-      //return this.banknoteInSafe[key];
     }
   },
 
@@ -38,11 +36,6 @@ let atmTerminal = {
       }
     }
   },
-
-  // totalBalanceOfCard() {
-
-  // },
-
 };
 
 let valik = {
